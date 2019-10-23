@@ -8,7 +8,7 @@ header {
     text-align: center;
     background-color: #4682B4;
     color: #FFFFFF;
-    padding: 2px 2px 2px 2px;
+    padding: 2px;
 }
 
 img {
@@ -34,7 +34,7 @@ main {
     border: 10px solid rgb(25, 50, 125);
     background-color: #fff;
     box-sizing: content-box;
-    padding: 2px 15px 2px 15px;
+    padding: 10px;
 }
 
 p {
