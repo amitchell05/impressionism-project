@@ -1,6 +1,5 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    /* background-color: rgba(0, 125, 200, 0.15); */
     background-image: linear-gradient(#097fa7, white);
     background-repeat: no-repeat;
     font-size: 18px;
@@ -8,22 +7,19 @@ body {
 
 header {
     text-align: center;
-    background-color: rgb(25, 50, 125);
     color: #FFFFFF;
     padding: 2px;
 }
 
 img {
     box-shadow: 0px 0px 10px 5px #555;
-    height: 400px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    height: auto;
     max-width: 100%;
 }
 
 figcaption {
-    text-align: center;
+    /* text-align: center; */
     font-size: 14px;
 }
 
@@ -34,10 +30,6 @@ h2 {
 
 main {
     border: 10px ridge rgb(25, 50, 125);
-    /* border-top-color: yellow;
-    border-right-color: blue;
-    border-bottom-color: green;
-    border-left-color: red; */
     background-color: #fff;
     box-sizing: content-box;
     padding: 10px;
@@ -52,14 +44,44 @@ li {
     text-align: center;
 }
 
+section {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .hidden {
     list-style-type: none;
 }
 
-#left {
+.left {
     float: left;
 }
 
-#right {
+.right {
     float: right;
 }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .column {
+      width: 100%;
+    }
+
+}
+
+/* .center {
+    margin-left: auto;
+    margin-right: auto;
+} */
