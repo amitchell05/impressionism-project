@@ -41,6 +41,7 @@ main {
     background-color: #fff;
     box-sizing: content-box;
     padding: 10px;
+    overflow: hidden;
 }
 
 p {
@@ -53,4 +54,12 @@ li {
 
 .hidden {
     list-style-type: none;
+}
+
+#left {
+    float: left;
+}
+
+#right {
+    float: right;
 }
