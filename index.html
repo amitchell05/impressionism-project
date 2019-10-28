@@ -14,9 +14,13 @@
 
 <body>
 
-    <header role="banner">
+    <header role="banner" id="banner">
 
         <h1>The Life of Marie Bracquemond</h1>
+
+        <a id="nav-jump" href="#menu">
+            <b class="hidden">Jump to the</b>" Menu"
+        </a>
 
     </header>
     
@@ -93,20 +97,24 @@
 
     </main>
 
-    <nav role="navigation">
+    <nav id="menu" role="navigation">
 
-        <ol>
+        <ul>
 
-            <li class="hidden"><a href="index.html">Introduction</a></li>
+            <li class="listHidden"><a href="index.html">Introduction</a></li>
 
-            <li class="hidden"><a href="family.html">Family</a></li>
+            <li class="listHidden"><a href="family.html">Family</a></li>
 
-            <li class="hidden"><a href="career.html">Career</a></li>
+            <li class="listHidden"><a href="career.html">Career</a></li>
 
-            <li class="hidden"><a href="gallery.html">Gallery</a></li>
+            <li class="listHidden"><a href="gallery.html">Gallery</a></li>
+    
+        </ul>
 
-        </ol>
-
+        <a id="menu-close" href="#banner">
+            <b class="hidden">Return to the content</b>
+        </a>
+        
     </nav>
 
     <footer>
@@ -115,6 +123,10 @@
                 article on Marie Bracquemond</a>.</p>
 
     </footer>
+    
+    <script type="text/js" srcy="main.js" async></script>
+
+    <div id="getActiveMQ-watcher" style="display: none;"></div>
 
 </body>
 

@@ -49,7 +49,7 @@ section {
     padding-right: 30px;
 }
 
-.hidden {
+.listHidden {
     list-style-type: none;
 }
 
@@ -73,6 +73,16 @@ section {
     display: table;
 }
 
+#getActiveMQ-watcher {
+    font-family: "default";
+}
+
+@media only screen and (min-width: 20em) and (max-width: 40.5em) {
+
+    #getActiveMQ-watcher {
+        font-family: "small";
+    }
+}
 @media only screen and (max-width: 500px) {
 
     .column {
@@ -80,8 +90,3 @@ section {
     }
 
 }
-
-/* .center {
-    margin-left: auto;
-    margin-right: auto;
-} */
